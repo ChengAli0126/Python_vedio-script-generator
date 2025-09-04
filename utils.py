@@ -2,7 +2,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_community.utilities import WikipediaAPIWrapper
 import os
-openai_api_key = os.environ['DEEPSEEK_API_KEY']
+# openai_api_key = os.environ['DEEPSEEK_API_KEY']
 openai_api_base = "https://api.deepseek.com/v1"
 def generate_script(subject, vedio_length,
                     creativity, api_key):
